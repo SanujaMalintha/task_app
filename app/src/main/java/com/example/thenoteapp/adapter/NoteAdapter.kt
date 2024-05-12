@@ -7,7 +7,7 @@ import com.example.thenoteapp.databinding.NoteLayoutBinding
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.notesroompractice.fragments.HomeFragmentDirections
+import com.example.thenoteapp.fragments.HomeFragmentDirections
 import com.example.thenoteapp.model.Note
 
 class NoteAdapter: RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {

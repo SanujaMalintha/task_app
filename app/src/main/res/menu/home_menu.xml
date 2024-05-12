@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/searchMenu"
-        android:icon="@drawable/search_icon"
+        android:icon="@drawable/baseline_settings_input_antenna_24"
         android:title="Search"
         app:showAsAction="ifRoom"
         app:actionViewClass="androidx.appcompat.widget.SearchView" />

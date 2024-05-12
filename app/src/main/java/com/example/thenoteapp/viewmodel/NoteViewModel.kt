@@ -9,15 +9,15 @@ import kotlinx.coroutines.launch
 
 class NoteViewModel(app: Application, private val noteRepository: NoteRepository) :
     AndroidViewModel(app) {
-    fun addTask(note: Note) = viewModelScope.launch {
+    fun addNote(note: Note) = viewModelScope.launch {
         noteRepository.insertNote(note)
     }
 
-    fun updateTask(note: Note) = viewModelScope.launch {
+    fun updateNote(note: Note) = viewModelScope.launch {
         noteRepository.updateNote(note)
     }
 
-    fun deleteTask(note: Note) = viewModelScope.launch {
+    fun deleteNote(note: Note) = viewModelScope.launch {
         noteRepository.deleteNote(note)
     }
 
